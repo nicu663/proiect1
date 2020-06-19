@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<body>
+<head>
+  <title>Product card</title>
     <style>
         .vraper-logo-image{
             text-align: center;
@@ -42,7 +43,63 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  p{
+    font-size: 16px;;
+    text-align: center;
+  }
+  .image3{
+    font-size: smaller;
+  }
+  .orange{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: orangered;
+    border-radius: 50%;
+  }
+  .gray{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    border-radius: 50%; 
+  }
+  .blue{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color:cyan;
+    border-radius: 50%;  
+  }
+  .colors{
+    text-align: center;
+  }
+  .number{
+    font-size: 35px;
+    text-align: center;
+    color: grey;
+  }
+  .add_to_cart{
+/* background: linear-gradient(#e25e0c,#9a9592); */
+background: linear-gradient(90deg,#ed4c07 0%, #9a9592 35%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #ed4c07;
+  }
+  .finaly{
+    text-align: center;
+  }
+  .add_to_cart:hover{
+  color: white;
+  -webkit-text-fill-color: unset;
+  cursor: pointer;
+  background: #ed4c07 ;
+}
       </style>
+      </head>
+      </body>
       <div class="fullCard">
         <div class="cardContent">
             <div class="cardText">
@@ -54,7 +111,17 @@
                 </div>
                 
                     <h2 class="text">Nike hyperchase</h2>
-                
+                   <p><strong>Men's basketball shoes</strong></p>
+                   <p class="image3">Shop Men's basketball shoes on Amazon.com. Browse all basketball shoes from Nike, Under Armour, adidas, Jordan and more top brands. Free shipping and free returns on eligible items.</p>
+                   <div class="colors">
+                   <div class="orange"></div>
+                   <div class="gray"></div>
+                   <div class="blue"> </div>
+                   </div>
+                   <div class="number"><strong>125$</strong></div>
+                   <div class="finaly">
+                   <button type="submit" class="add_to_cart">Add to cart</button>
+                   </div>
             </div>
         </div>
     </div>
